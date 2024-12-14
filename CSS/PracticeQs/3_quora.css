@@ -1,0 +1,117 @@
+/* Universal Selector */
+* {
+    font-family: courier new;
+}
+
+/* Element Selector */
+h3 {
+    color: purple;
+}
+
+h1 {
+    color: #b92b27;
+}
+
+/* ID Selector */
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: antiquewhite;
+}
+
+#myid p {
+    color: green;
+}
+
+/* OR */
+div[id="myid"] p {
+    color: blue;
+}
+
+/* Class Selector */
+.upvote {
+    background-color: green;
+    color: aliceblue;
+}
+
+
+/* descendant selector */
+
+p a {
+    background-color: yellow;
+    color: purple;
+}
+
+nav ul li a {
+    color: chocolate;
+}
+
+/* Adjacent Sibling Combination */
+p+h3 {
+    text-decoration: underline;
+}
+
+.upvote+button{
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+/* Child Combinator */
+div>input{
+    background-color: darksalmon;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}
+
+/* Hover (It change the property when cruser come over the property defined) */
+button:hover{
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+/* Active (it changes the property when clicked) */
+button:active{
+    background-color: pink;
+}
+
+/* Checked (when select the button it chnges his behaviour) */
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+}
+
+/* nth-of-type (It changes the property with the given instruction) */
+div:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+
+/* First-letter (It changes the First Letter properties) */
+h1::first-letter{
+    color: green;
+}
+
+/* First-line (It change the property of First Line) */
+p::first-line{
+    color: rgb(32, 140, 199);
+}
+
+/* selection (The Selected item property changes)*/
+p::selection{
+    background-color:#b92b27;
+}
+
+
