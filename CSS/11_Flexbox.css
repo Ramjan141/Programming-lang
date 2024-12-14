@@ -1,0 +1,53 @@
+#container {
+    height: 300px;
+    ;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    /* default direction is 'row' */
+    display: flex;
+
+    /* This is the direction of of element */
+    flex-direction: row;
+
+    /* It changes the direction according to the direction */
+    /* justify-content: flex-start;  */
+
+    /* It manages the spaces between the content */
+    /* justify-content: space-evenly; */
+
+    /* If there is no space the the element goes to second line with same value it does'nt compress the element size */
+    /* flex-wrap: wrap; */
+
+    /* It proritize the content under the element and the content are in same or equal */
+    /* align-items: flex-end; */
+
+    /* It sets the space distribution between cross axis */
+    /* align-content: flex-start; */
+
+
+
+
+}
+
+#org {
+    /* align an item to words cross-axis */
+    /* align-self: flex-start; */
+
+    /* It sets the size of a flex item */
+    flex-basis: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div {
+    height: 30px;
+    width: 300px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+
+}

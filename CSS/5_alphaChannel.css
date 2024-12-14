@@ -1,0 +1,10 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: #4dff00ff; /* it sets the opacity to only the background color */
+}
+
+#opacity{
+    background-color: #ffa511;
+   opacity: 1; /*It sets the opacity to div element */
+}
